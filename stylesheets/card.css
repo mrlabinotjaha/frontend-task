@@ -1,0 +1,15 @@
+.cards {
+  display: grid;
+  grid-gap: 35px 25px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 60px 0; }
+
+.card__top {
+  height: 210px;
+  margin-bottom: 15px; }
+
+.card__img {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }

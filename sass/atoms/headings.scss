@@ -1,0 +1,45 @@
+@import '../general.scss';
+
+h1,h2,h3,h4,h5,h6 {
+	margin-top: 0px;
+	margin-bottom: 15px;
+	font-weight: normal
+}
+
+h1 {
+	font-size: 48px;
+}
+h2 {
+	font-size: 40px;
+}
+h3 {
+	font-size: 31px;
+}
+h4 {
+	font-size: 25px;
+}
+h5 {
+	font-size: 20px;
+}
+h6 {
+	font-size: 16px;
+}
+
+
+.p__text {
+	color: $gray;
+	line-height: 1.4;
+}
+
+.h4__text {
+	color: $dark-gray;
+}
+
+.h6__text {
+	color: $light-gray;
+}
+
+.h6--small {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
